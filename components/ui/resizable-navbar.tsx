@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { IconMenu2, IconX } from "@tabler/icons-react";
+import Image from "next/image";
 import {
   motion,
   AnimatePresence,
@@ -71,10 +72,10 @@ export const Navbar = ({ children, className }: NavbarProps) => {
       // IMPORTANT: Change this to class of `fixed` if you want the navbar to be fixed
       className={cn("sticky inset-x-0 top-20 z-40 w-full", className)}
     >
-      {React.Children.map(children, (child) =>
+      {React.Children.map(children, (child, index) =>
         React.isValidElement(child)
           ? React.cloneElement(
-              child as React.ReactElement<{ visible?: boolean }>,
+              child as React.ReactElement<{ visible?: boolean; key?: React.Key }>,
               { visible },
             )
           : child,
@@ -236,7 +237,7 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <img
+      <Image
         src="/logo/LOGO.png"
         alt="logo"
         width={50}

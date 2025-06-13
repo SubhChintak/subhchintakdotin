@@ -16,7 +16,7 @@ export const products = [
     title: "helloIndia",
     link: "https://cursor.so",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "/images/yourtutor.png",
   },
   {
     title: "Pioneer Classes",
@@ -29,7 +29,7 @@ export const products = [
     title: "Femina Flow",
     link: "https://editorially.org",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "/images/yourtutor.png",
   },
   {
     title: "Resort Booking",
@@ -41,62 +41,62 @@ export const products = [
     title: "Manish Makeover",
     link: "https://app.pixelperfect.quest",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "/images/curexpertindia.png",
   },
 
   {
     title: "Algochurn",
     link: "https://algochurn.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "/images/yourtutor.png",
   },
   {
     title: "Aceternity UI",
     link: "https://ui.aceternity.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "/images/curexpertindia.png",
   },
   {
     title: "Tailwind Master Kit",
     link: "https://tailwindmasterkit.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+      "/images/yourtutor.png",
   },
   {
     title: "SmartBridge",
     link: "https://smartbridgetech.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+      "/images/curexpertindia.png",
   },
   {
     title: "Renderwork Studio",
     link: "https://renderwork.studio",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+      "/images/yourtutor.png",
   },
 
   {
     title: "Creme Digital",
     link: "https://cremedigital.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      "/images/curexpertindia.png",
   },
   {
     title: "Golden Bells Academy",
     link: "https://goldenbellsacademy.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+      "/images/yourtutor.png",
   },
   {
     title: "Invoker Labs",
     link: "https://invoker.lol",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+      "/images/curexpertindia.png",
   },
   {
     title: "E Free Invoice",
     link: "https://efreeinvoice.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+      "/images/yourtutor.png",
   },
 ];

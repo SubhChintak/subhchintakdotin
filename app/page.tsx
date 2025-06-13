@@ -1,26 +1,19 @@
 "use client";
 
-import { AnimatedBeamMultipleOutputDemo } from "@/components/demos/animated-beam-demo";
 import { AnimatedShinyTextDemo } from "@/components/demos/animated-shiny-text-demo";
-import BoxRevealDemo from "@/components/demos/box-reveal-demo";
 import { CoverDemo } from "@/components/demos/cover-demo";
 import { ScrollBasedVelocityDemo } from "@/components/demos/scroll-based-velocity-demo";
 import { WordPullUpDemo } from "@/components/demos/word-pull-up-demo";
 import BoxReveal from "@/components/magicui/box-reveal";
 import NumberTicker from "@/components/magicui/number-ticker";
 import { InfiniteMovingLogos } from "@/components/ui/infinite-moving-logos";
-import Image from "next/image";
 import Link from "next/link";
 import { PiCheckBold } from "react-icons/pi";
 import { Link as ScrollLink, Element } from "react-scroll";
-import { IconStarFilled } from "@tabler/icons-react";
-import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
-import { FeaturesSectionDemo } from "@/components/demos/features-section-demo"
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import { GlowingEffectDemo } from './../components/demos/GlowingEffectDemo';
 import { NavbarDemo } from "./../components/demos/NavbarDemo";
 import Footer from "@/components/demos/Footer"
-import { FeaturesSection } from "@/components/demos/FeaturesSection";
 import { InfiniteMovingCardsDemo } from "@/components/demos/InfiniteMovingCardsDemo";
 
 
@@ -42,7 +35,7 @@ const services = [
     icon: "/images/s_5.png",
     title: "Content Creation",
     description:
-      "Boost your brand's online presence with our social media marketing services",
+      "Boost your brand&apos;s online presence with our social media marketing services",
   },
   {
     icon: "/images/s_3.png",
@@ -60,7 +53,7 @@ const services = [
     icon: "/images/s_2.png",
     title: "Pay-Per-Click Advertising",
     description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
+      "Don&apos;t waste money on ineffective advertising. Our PPC services help you reach your target audience",
   },
 ];
 
@@ -208,9 +201,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-
-      {/* <FeaturesSection/> */}
 
       <Element name="services">
         <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto ">

@@ -18,13 +18,13 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "We've been working with SubhChintak since last year and they've been amazing to work with. They've helped us grow our business and we couldn't be happier with the results.",
+      "We have been working with SubhChintak since last year and they have been amazing to work with. They have helped us grow our business and we could not be happier with the results.",
     name: "Subham",
     title: "CureXpert india",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+      "To be, or not to be, that is the question: Whether it is nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
     name: "William Shakespeare",
     title: "Hamlet",
   },
