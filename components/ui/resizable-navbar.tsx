@@ -238,12 +238,12 @@ export const NavbarLogo = () => {
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
       <Image
-        src="/logo/LOGO.png"
+        src="/logo/subhchintak-logo.png"
         alt="logo"
-        width={50}
-        height={50}
+        width={100}
+        height={100}
       />
-      <span className="font-medium text-black dark:text-white">SubhChintak</span>
+      {/* <span className="font-medium text-black dark:text-white">SubhChintak</span> */}
     </a>
   );
 };

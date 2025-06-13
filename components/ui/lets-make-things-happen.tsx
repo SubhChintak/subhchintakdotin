@@ -10,7 +10,7 @@ function LetsMakeThingsHappenSection() {
     bg-accent rounded-[45px] p-[50px] md:p-[60px] relative">
       <div className="md:pr-[22rem]">
         <p className="text-3xl font-medium">
-          Let&apos;s make things happen
+          Your Idea Deserves to Exist
         </p>
 
         <p className="my-10 text-xl">

@@ -41,7 +41,7 @@ const FooterSection = () => {
             </ul>
             <div className="mt-8 items-center justify-between sm:flex">
                 <div className="mt-4 sm:mt-0">
-                    &copy; 2022 Float UI All rights reserved.
+                    &copy; 2025 SubhChintak.in | All rights reserved.
                 </div>
                 <div className="mt-6 sm:mt-0">
                     <ul className="flex items-center space-x-4">
@@ -92,29 +92,24 @@ const FooterSection = () => {
 
 const footerNavs = [
         {
-            href: 'javascript:void()',
-            name: 'About'
+            href: '/',
+            name: 'Home'
         },
         {
-            href: 'javascript:void()',
-            name: 'Blog'
+            href: '/process',
+            name: 'Process'
         },
         {
-            href: 'javascript:void()',
-            name: ''
+            href: '/pricing',
+            name: 'Pricing'
         },
         {
-            href: 'javascript:void()',
-            name: 'Team'
+            href: '/showcase',
+            name: 'Our Works'
         },
         {
-            href: 'javascript:void()',
-            name: 'Careers'
-        },
-
-        {
-            href: 'javascript:void()',
-            name: 'Suuport'
+            href: '/meeting',
+            name: 'Contact Us'
         }
     ]
 

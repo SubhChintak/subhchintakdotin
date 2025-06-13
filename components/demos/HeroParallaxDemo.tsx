@@ -10,32 +10,32 @@ export const products = [
     title: "CureXpert India",
     link: "https://gomoonbeam.com",
     thumbnail:
-      "/images/curexpertindia.png",
+      "/images/showcase02.png",
   },
   {
     title: "helloIndia",
     link: "https://cursor.so",
     thumbnail:
-      "/images/yourtutor.png",
+      "/images/showcase03.png",
   },
   {
     title: "Pioneer Classes",
     link: "https://userogue.com",
     thumbnail:
-      "/images/yourtutor.png",
+      "/images/showcase01.png",
   },
 
   {
     title: "Femina Flow",
     link: "https://editorially.org",
     thumbnail:
-      "/images/yourtutor.png",
+      "/images/showcase02.png",
   },
   {
     title: "Resort Booking",
     link: "https://editrix.ai",
     thumbnail:
-      "/images/feminaflow.png",
+      "/images/showcase03.png",
   },
   {
     title: "Manish Makeover",
