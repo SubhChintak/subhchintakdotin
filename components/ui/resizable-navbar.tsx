@@ -240,8 +240,8 @@ export const NavbarLogo = () => {
       <Image
         src="/logo/subhchintak-logo.png"
         alt="logo"
-        width={100}
-        height={100}
+        width={130}
+        height={130}
       />
       {/* <span className="font-medium text-black dark:text-white">SubhChintak</span> */}
     </a>

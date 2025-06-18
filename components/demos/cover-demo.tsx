@@ -1,5 +1,4 @@
 import React from "react";
-import { Cover } from "@/components/ui/cover";
 import { ColourfulText } from "@/components/ui/colourful-text";
 
 
